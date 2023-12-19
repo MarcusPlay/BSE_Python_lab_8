@@ -6,9 +6,7 @@
 # Рассмотреть возможность того, что весь массив заполнен одинаковыми элементами.
 
 if __name__=="__main__":
-    t = tuple(map(int, input("Введите кортеж значений через пробел: ").split()))
-    
-    elements = t
+    elements = tuple(map(int, input("Введите кортеж значений через пробел: ").split()))
 
     equal_elements = 0
     following_elements = []
